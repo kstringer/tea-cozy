@@ -64,3 +64,30 @@ header {
   background-color: black;
   justify-content: space-around;
 }
+
+#tea {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+#tea h2 {
+  margin-bottom: 15px;
+}
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+.product-image {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+#
