@@ -12,6 +12,8 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+/*set a fixed header */
 header {
   display: flex;
   position: fixed;
@@ -30,13 +32,12 @@ header {
 .logo img {
   height: 50px;
 }
-
 .nav {
   align-self: center;
   margin-right: 10px;
 }
+/* overright link default styles */
 .nav a{
-  color: inherit;
   color: seashell;
   margin-left: 20px;
 }
@@ -53,7 +54,6 @@ header {
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
   background-size: cover;
-  width: 1200px;
   align-items: center;
 }
 .mission-text {
@@ -67,8 +67,6 @@ header {
 
 #tea {
   padding: 100px 0;
-  display: flex;
-  flex-direction: column;
   width: 1000px;
 }
 #tea h2 {
@@ -80,8 +78,6 @@ header {
   justify-content: center;
 }
 .product {
-  display: flex;
-  flex-direction: column;
   padding: 15px;
 }
 .product-image {
@@ -90,4 +86,42 @@ header {
   padding-bottom: 10px;
 }
 
-#
+#locations {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  margin-bottom: 15px;
+}
+#locations h2 {
+  margin-bottom: 15px;
+  padding-top: 75px;
+}
+.sites {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+}
+.loc {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  height: 275px;
+  opacity: 1;
+  margin: 0 20px;
+  justify-content: space-around;
+}
+
+.contact {
+  height: 200px;
+}
+.contact h2 {
+  margin-bottom: 40px;
+}
+.contact h5 {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
